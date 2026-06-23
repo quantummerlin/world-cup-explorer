@@ -152,9 +152,8 @@
     .hero-badge,.live-badge{font-size:10px;padding:4px 12px}
     /* Hide tabs, show accordion */
     .tabs{display:none}
-    .accordion-header{display:flex}
-    .panel{display:none!important}
-    .accordion-panel.open{display:block!important}
+    .accordion-header{display:flex;align-items:center;justify-content:space-between}
+    .accordion-panel.open{display:block}
     /* Match items stack better */
     .match-item{flex-wrap:wrap;gap:6px;padding:8px 10px}
     .match-date{min-width:auto;font-size:10px}
@@ -163,7 +162,7 @@
     .match-venue{display:none}
     .groups-grid,.scenarios-grid,.two-col{grid-template-columns:1fr}
     .stats-row{grid-template-columns:repeat(2,1fr)}
-    .countdown-bar{gap:8px}
+    .countdown-bar{gap:8px;flex-wrap:wrap;justify-content:center}
     .cd-unit{min-width:34px;padding:3px 6px}
     .cd-val{font-size:14px}
     .bracket{justify-content:flex-start}
